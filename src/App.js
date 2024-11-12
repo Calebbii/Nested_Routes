@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact';
+import Clicktracker from './Pages/Clicktracker';
+import Counttracker from './Pages/Counttracker';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
             <Route path='/home' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
+            <Route path='/click' element={<Clicktracker/>}/>
+            <Route path='/count' element={<Counttracker/>}/>
           </Routes>
       </BrowserRouter>
       
