@@ -6,6 +6,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact';
 import Clicktracker from './Pages/Clicktracker';
 import Counttracker from './Pages/Counttracker';
+import TodoItems from './Pages/TodoItems';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/click' element={<Clicktracker/>}/>
             <Route path='/count' element={<Counttracker/>}/>
+            <Route path='/todo' element={<TodoItems/>}/>
           </Routes>
       </BrowserRouter>
       
